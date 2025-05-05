@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BimaNet</title>
+
+  <!-- Lightbox2 CSS dari CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet"/>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery a img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery a img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Galeri Foto Saya</h1>
+  </header>
+
+  <div class="gallery">
+    <a href="img/logo_bimanet.png" data-lightbox="galeri" data-title="Foto 1">
+      <img src="img/logo_bimanet.png" alt="Foto 1">
+    </a>
+    <a href="img/logo_bimanet.png" data-lightbox="galeri" data-title="Foto 2">
+      <img src="img/logo_bimanet.png" alt="Foto 2">
+    </a>
+    <a href="img/logo_bimanet.png" data-lightbox="galeri" data-title="Foto 3">
+      <img src="img/logo_bimanet.png" alt="Foto 3">
+    </a>
+    <a href="img/logo_bimanet.png" data-lightbox="galeri" data-title="Foto 4">
+      <img src="img/logo_bimanet.png" alt="Foto 4">
+    </a>
+    <a href="img/logo_bimanet.png" data-lightbox="galeri" data-title="Foto 5">
+      <img src="img/logo_bimanet.png" alt="Foto 5">
+    </a>
+    <a href="img/logo_bimanet.png" data-lightbox="galeri" data-title="Foto 6">
+      <img src="img/logo_bimanet.png" alt="Foto 6">
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Galeri Foto
+  </footer>
+
+  <!-- Lightbox2 JS dari CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
