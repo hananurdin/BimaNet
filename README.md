@@ -13,14 +13,14 @@ Ini adalah proyek galeri foto berbasis HTML dan CSS yang menggunakan **Lightbox2
 ## 🚀 Demo
 
 Lihat galeri secara langsung di:
-[https://username.github.io/galeri-foto/](https://username.github.io/galeri-foto/)  
+[https://hananurdin.github.io/BimaNet/](https://hananurdin.github.io/BimaNet/)  
 > Ganti `username` dengan nama pengguna GitHub kamu.
 
 ## 🛠️ Cara Pakai
 
 1. **Clone repositori ini** atau unduh secara manual:
    ```bash
-   git clone https://github.com/username/galeri-foto.git
+   git clone https://github.com/hananurdin/BimaNet.git
    ```
 
 2. **Struktur folder**:
@@ -39,7 +39,7 @@ Lihat galeri secara langsung di:
    - Pilih `main` branch dan folder root (`/`)
    - Klik **Save**
 
-5. Buka link GitHub Pages: `https://username.github.io/galeri-foto/`
+5. Buka link GitHub Pages: `https://hananurdin.github.io/BimaNet/`
 
 ## 📦 Teknologi
 
